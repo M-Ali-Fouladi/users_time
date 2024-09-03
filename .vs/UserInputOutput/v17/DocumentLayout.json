@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\job_Documents\\My_projects_job\\asp.net\\AtWork\\UserInputOutput\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C25AB6F6-0BB4-44A5-A381-E1586C7018FD}|UserInputOutput\\UserInputOutput.csproj|e:\\job_documents\\my_projects_job\\asp.net\\atwork\\userinputoutput\\userinputoutput\\models\\accountmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25AB6F6-0BB4-44A5-A381-E1586C7018FD}|UserInputOutput\\UserInputOutput.csproj|solutionrelative:userinputoutput\\models\\accountmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25AB6F6-0BB4-44A5-A381-E1586C7018FD}|UserInputOutput\\UserInputOutput.csproj|e:\\job_documents\\my_projects_job\\asp.net\\atwork\\userinputoutput\\userinputoutput\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25AB6F6-0BB4-44A5-A381-E1586C7018FD}|UserInputOutput\\UserInputOutput.csproj|solutionrelative:userinputoutput\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25AB6F6-0BB4-44A5-A381-E1586C7018FD}|UserInputOutput\\UserInputOutput.csproj|e:\\job_documents\\my_projects_job\\asp.net\\atwork\\userinputoutput\\userinputoutput\\controllers\\usersmethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25AB6F6-0BB4-44A5-A381-E1586C7018FD}|UserInputOutput\\UserInputOutput.csproj|solutionrelative:userinputoutput\\controllers\\usersmethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25AB6F6-0BB4-44A5-A381-E1586C7018FD}|UserInputOutput\\UserInputOutput.csproj|e:\\job_documents\\my_projects_job\\asp.net\\atwork\\userinputoutput\\userinputoutput\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25AB6F6-0BB4-44A5-A381-E1586C7018FD}|UserInputOutput\\UserInputOutput.csproj|solutionrelative:userinputoutput\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25AB6F6-0BB4-44A5-A381-E1586C7018FD}|UserInputOutput\\UserInputOutput.csproj|e:\\job_documents\\my_projects_job\\asp.net\\atwork\\userinputoutput\\userinputoutput\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25AB6F6-0BB4-44A5-A381-E1586C7018FD}|UserInputOutput\\UserInputOutput.csproj|solutionrelative:userinputoutput\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountModels.cs",
+              "DocumentMoniker": "E:\\job_Documents\\My_projects_job\\asp.net\\AtWork\\UserInputOutput\\UserInputOutput\\Models\\AccountModels.cs",
+              "RelativeDocumentMoniker": "UserInputOutput\\Models\\AccountModels.cs",
+              "ToolTip": "E:\\job_Documents\\My_projects_job\\asp.net\\AtWork\\UserInputOutput\\UserInputOutput\\Models\\AccountModels.cs",
+              "RelativeToolTip": "UserInputOutput\\Models\\AccountModels.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAIA5wBUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T01:50:10.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersMethodController.cs",
+              "DocumentMoniker": "E:\\job_Documents\\My_projects_job\\asp.net\\AtWork\\UserInputOutput\\UserInputOutput\\Controllers\\UsersMethodController.cs",
+              "RelativeDocumentMoniker": "UserInputOutput\\Controllers\\UsersMethodController.cs",
+              "ToolTip": "E:\\job_Documents\\My_projects_job\\asp.net\\AtWork\\UserInputOutput\\UserInputOutput\\Controllers\\UsersMethodController.cs",
+              "RelativeToolTip": "UserInputOutput\\Controllers\\UsersMethodController.cs",
+              "ViewState": "AQIAALMAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T01:49:21.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\job_Documents\\My_projects_job\\asp.net\\AtWork\\UserInputOutput\\UserInputOutput\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "UserInputOutput\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\job_Documents\\My_projects_job\\asp.net\\AtWork\\UserInputOutput\\UserInputOutput\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "UserInputOutput\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T01:49:09.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\job_Documents\\My_projects_job\\asp.net\\AtWork\\UserInputOutput\\UserInputOutput\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UserInputOutput\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\job_Documents\\My_projects_job\\asp.net\\AtWork\\UserInputOutput\\UserInputOutput\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UserInputOutput\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T01:49:05.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\job_Documents\\My_projects_job\\asp.net\\AtWork\\UserInputOutput\\UserInputOutput\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "UserInputOutput\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\job_Documents\\My_projects_job\\asp.net\\AtWork\\UserInputOutput\\UserInputOutput\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "UserInputOutput\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAcwA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T01:48:57.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

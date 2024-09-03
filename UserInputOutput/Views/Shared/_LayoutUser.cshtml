@@ -1,0 +1,59 @@
+﻿@{
+   UserInputOutput.Models.User u = new UserInputOutput.Models.User();
+    if(Session["User"] != null)
+    {
+        u = (UserInputOutput.Models.User)Session["User"];
+    }
+    else
+    {
+        Response.Redirect("~/");
+    }
+}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <header>
+            <div class="content-wrapper">
+                <div class="float-left" dir="rtl">
+                    <p class="site-title">@Html.ActionLink("صفحه اصلی", "Index", "Home") </p>
+                </div>
+                <div class="float-right">
+                
+                    <nav>
+                        <ul id="menu" dir="rtl">
+                           
+                            <li>نام کاربر : @u.Name  </li>
+                            
+
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+               </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
+
+
+

@@ -1,0 +1,85 @@
+﻿@model UserInputOutput.Models.User
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>User</legend>
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UserName)
+            @Html.ValidationMessageFor(model => model.UserName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Family)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Family)
+            @Html.ValidationMessageFor(model => model.Family)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Password)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Password)
+            @Html.ValidationMessageFor(model => model.Password)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LastLogin)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LastLogin)
+            @Html.ValidationMessageFor(model => model.LastLogin)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserGroupId, "Group")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("UserGroupId", String.Empty)
+            @Html.ValidationMessageFor(model => model.UserGroupId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserTypeId, "UserType")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("UserTypeId", String.Empty)
+            @Html.ValidationMessageFor(model => model.UserTypeId)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
